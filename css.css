@@ -15,10 +15,10 @@
         border-radius: 50%;
         background-color: red;
         -webkit-animation-name: mov;
-        -webkit-animation-duration: 1s;
+        -webkit-animation-duration: 4s;
         -webkit-animation-iteration-count: infinite;
         animation-name: mov;
-        animation-duration: 5s;
+        animation-duration: 4s;
         animation-iteration-count: infinite;
     }
 
