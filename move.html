@@ -13,8 +13,14 @@
 </div>    
 </div>
 <script>
-var x = document.getElementById("x").value;
-x.innerHTML = 7;
+    var i=1;
+    var a = setInterval(rep, 4000);
+    function rep() 
+        {
+            var a = document.getElementById("x");
+            a.innerHTML = i;
+            i++;
+        }
 </script>
 </body>
 </html>
